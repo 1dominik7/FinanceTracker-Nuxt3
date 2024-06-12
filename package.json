@@ -1,0 +1,22 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "seed": "node seed.mjs"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.1.0",
+    "@nuxt/devtools": "latest",
+    "@nuxt/ui": "^2.8.1",
+    "@nuxtjs/supabase": "^1.1.0",
+    "date-fns": "^2.30.0",
+    "nuxt": "^3.7.0",
+    "zod": "^3.22.2"
+  }
+}
